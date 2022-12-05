@@ -30,3 +30,14 @@ function sortByLength (array) {
 };
 ```
 ------------------------------
+### **Education and courses:**
++ Brest State Technical University (specialty – logistics) 
++ HTML and CSS Tutorials on the [w3schools](https://www.w3schools.com/) 
++ Course "JavaScript/DOM/ Interfaces" for beginner ![certificate](https://learn.javascript.ru/courses/jsbasic-20220418/viktoriacvg/en/certificate.jpg)
++ JavaScript Manual on [learn.javascript.ru](https://learn.javascript.ru/) (in progress)
++ RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+
+------------------------------
+### **Languages:**
++ English – Intermediate
++ Russian - Native

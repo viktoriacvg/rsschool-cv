@@ -10,98 +10,86 @@
 <body>
   <header class ="header">
     <div class="container">
-    <figure class="photo">
-      <img src="assets/img/photo.jpg" alt="photo" class="my-photo">
-    </figure>
-    <h1>Viktoria Klimahovich</h1>
-    <p>Web-developer</p>
-    <nav class="nav">
-      <ul class="nav-list">
+      <figure class="photo">
+        <img src="assets/img/photo.jpg" alt="photo" class="my-photo">
+      </figure>
+      <h1>Viktoria Klimahovich</h1>
+      <p>Web-developer</p>
+      <nav class="nav">
+        <ul class="nav-list">
         <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
         <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
         <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
         <li class="nav-item"><a href="#code" class="nav-link">Code examples</a></li>
         <li class="nav-item"><a href="#education" class="nav-link">Education and courses</a></li>
-        <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
-      </ul>
-    </nav>
+        <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li></ul>
+      </nav>
     </div>
   </header>
-  <main class="main main-container">
+  <main class="main">
     <div class="container">
-    <div class="left-side">
-      <section class="section" id="contact">
-        <h2>Contact information:</h2>
-        <p>Discord: Vika (viktoria_cvg#7880)</p>
-        <p>Email: viktoriacvg@gmail.com</p>
-      </section>
-      <section class="section" id="skills">
-        <h2>Skills and Proficiency:</h2>
-        <ul>
-          <li>HTML5, CSS3</li>
-          <li>JavaScript Basics</li>
-          <li>Git, GitHub</li>
-          <li>VS Code</li>
-        </ul>
-      </section>
-      <section class="section" id="languages">
-        <h2>Languages:</h2>
-        <ul>
-          <li>English – Intermediate</li>
-          <li>Russian - Native</li>
-        </ul>
-      </section>
-    </div>
-    <div class="right-side">
-      <section class="section" id="about-me">
-        <h2>About myself</h2>
-        <p>I started to study web-development over a year ago. 
-          At first I have studied HTML и CSS and in the course of studying created mini projects. 
-          I spend all my free time for education. 
-          It is very exciting and the more I learn, the more interesting it becomes for me to go further. 
-          Yes, there are difficulties, but they spur me even more to go forward and do not give up. 
-          The profession - Frontend Development provides endless opportunities for professional growth.</p>
-      </section>
-      <section class="section" id="code">
-        <h2>Code examples</h2>
-        <p><b>Kata from Codewars: </b><i>Sort array by string length.</i><br>
-          Write a function that takes an array of strings as an argument and returns a sorted array containing the same strings, ordered from shortest to longest.
-          For example, if this array were passed as an argument:[“Telescopes”, “Glasses”, “Eyes”, “Monocles”]
-          Your function would return the following array: [“Eyes”, “Glasses”, “Monocles”, “Telescopes”]
-          All of the strings in the array passed to your function will be different lengths, so you will not have to decide how to order multiple strings of the same length.</p>
+      <div class="left-side">
+        <section class="section" id="contact">
+          <h2>Contact information:</h2>
+          <p>Discord: Vika (viktoria_cvg#7880)</p>
+          <p>Email: viktoriacvg@gmail.com</p>
+        </section>
+        <section class="section" id="skills">
+          <h2>Skills and Proficiency:</h2>
+          <ul>
+            <li>HTML5, CSS3</li>
+            <li>JavaScript Basics</li>
+            <li>Git, GitHub</li>
+            <li>VS Code</li>
+          </ul>
+        </section>
+        <section class="section" id="languages">
+          <h2>Languages:</h2>
+          <ul>
+            <li>English–Intermediate</li>
+            <li>Russian-Native</li>
+          </ul>
+        </section>
+      </div>
+      <div class="right-side">
+        <section class="section" id="about-me">
+          <h2>About myself</h2>
+          <p>I started to study web-development over a year ago. At first I have studied HTML и CSS and in the course of studying created mini projects. I spend all my free time for education. It is very exciting and the more I learn, the more interesting it becomes for me to go further. Yes, there are difficulties, but they spur me even more to go forward and do not give up. The profession - Frontend Development provides endless opportunities for professional growth.</p>
+        </section>
+        <section class="section" id="code">
+          <h2>Code examples</h2>
+          <p><b>Kata from Codewars: </b><i>Sort array by string length.</i><br> Write a function that takes an array of strings as an argument and returns a sorted array containing the same strings, ordered from shortest to longest. For example, if this array were passed as an argument:[“Telescopes”, “Glasses”, “Eyes”, “Monocles”] Your function would return the following array: [“Eyes”, “Glasses”, “Monocles”, “Telescopes”] All of the strings in the array passed to your function will be different lengths, so you will not have to decide how to order multiple strings of the same length.</p>
           <pre>
             <code>
               function sortByLength (array) {
                 return array.sort(function compare(a, b) {
-                   if (a.length &amp; b.length) return 1;
-                   if (a.length == b.length) return 0; 
-                   if (a.length &lt; b.length) return -1;
-                 })
-          };
+                  if (a.length &amp; b.length) return 1;
+                  if (a.length == b.length) return 0; 
+                  if (a.length &lt; b.length) return -1;
+                })
+              };
             </code>
           </pre>
-      </section>
-      <section class="section" id="education">
-        <h2>Education and courses</h2>
-        <ul>
-          <li>Brest State Technical University (specialty – logistics)</li>
-          <li>HTML and CSS Tutorials on the <a href="https://www.w3schools.com/">w3schools</a></li>
-          <li>Course “JavaScript/DOM/ Interfaces” for beginner <a href="https://learn.javascript.ru/courses/jsbasic-20220418/viktoriacvg/en/certificate.jpg">Certificate</a></li>
-          <li>JavaScript Manual on <a href="https://learn.javascript.ru/">learn.javascript.ru</a> (in progress)</li>
-          <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
-        </ul>
-      </section>
+        </section>
+        <section class="section" id="education">
+          <h2>Education and courses</h2>
+          <ul>
+            <li>Brest State Technical University (specialty–logistics)</li>
+            <li>HTML and CSS Tutorials on the <a href="https://www.w3schools.com/">w3schools</a></li>
+            <li>Course “JavaScript/DOM/ Interfaces” for beginner <a href="https://learn.javascript.ru/courses/jsbasic-20220418/viktoriacvg/en/certificate.jpg">Certificate</a></li>
+            <li>JavaScript Manual on <a href="https://learn.javascript.ru/">learn.javascript.ru</a> (in progress)</li>
+            <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+          </ul>
+        </section>
+      </div>
     </div>
-  </div>
   </main>
   <footer class = "footer">
     <div class="container">
-      <div><a href="https://github.com/viktoriacvg" class="git">My GitHub</a>
-      </div>
+      <div><a href="https://github.com/viktoriacvg" class="git">My GitHub</a></div>
       <div><p>2022-2023</p></div>
-      <div><a href="https://rs.school/js-stage0/" target="_blank"><img src="assets/img/rs_school.gif" alt="RS School" width="80" height="32"></a>
-      </div>
-  </div>
+      <div><a href="https://rs.school/js-stage0/" target="_blank"><img src="assets/img/rs_school.gif" alt="RSSchool" width="80" height="32"></a></div>
+    </div>
   </footer>
 </body>
 </html>

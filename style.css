@@ -37,6 +37,11 @@ body {
   .link:hover {
     color: #5d7260;
   }
+  .my-photo {
+    width: 240px; 
+    height: 235px;
+    border-radius: 150px;
+  }
 
 /* header */
 header {

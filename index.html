@@ -11,7 +11,7 @@
   <header class ="header">
     <div class="container">
     <figure class="photo">
-      <img src="assets/img/photo.jpg" alt="Photo of Viktoria Klimahovich" width="240" height="235" style="border-radius: 150px">
+      <img src="assets/img/photo.jpg" alt="photo" class="my-photo">
     </figure>
     <h1>Viktoria Klimahovich</h1>
     <p>Web-developer</p>
@@ -73,7 +73,7 @@
             <code>
               function sortByLength (array) {
                 return array.sort(function compare(a, b) {
-                   if (a.length &gt b.length) return 1;
+                   if (a.length &amp; b.length) return 1;
                    if (a.length == b.length) return 0; 
                    if (a.length &lt; b.length) return -1;
                  })

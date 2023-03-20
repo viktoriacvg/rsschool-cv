@@ -110,3 +110,8 @@ header p {
 .git::before {
   content: url(assets/img/gitHub.GIF);
 }
+
+.photoRs {
+  width: 80px;
+  height: 32px;
+}
